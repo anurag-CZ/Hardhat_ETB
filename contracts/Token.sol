@@ -21,6 +21,5 @@ contract Token {
         require(balances[owner] >= amount, "Not enough Token available");
         balances[owner] -= amount;
         balances[msg.sender] += amount;
-
     }
 }
