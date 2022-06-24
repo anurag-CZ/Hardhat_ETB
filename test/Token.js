@@ -21,7 +21,7 @@ describe("Token Contract", async () => {
         })
     });
 
-    // describe("Transaction", async () => {
+    // describe("Transaction", () => {
     //     it("should transfer token", async () => {
     //         await token.transfer(addr1.address, 50);
     //         const addr1Balance = await token.balanceOf(addr1.address);
@@ -30,6 +30,8 @@ describe("Token Contract", async () => {
     //         await token.connect(addr1).transfer(addr2.address, 50);
     //         const addr2Balance = await token.balanceOf(addr2.address);
     //         expect(addr2Balance).to.equal(50);
-    //     })
+    //     });
+
+   
     // })
 })
